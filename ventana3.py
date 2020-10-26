@@ -1,4 +1,5 @@
-#Posicionamiento
+
+#Posicionamiento de elementos en la ventana
 
 from tkinter import *
 
@@ -24,10 +25,10 @@ ventana.geometry("400x200")
 
 ventana.title("Posicionamientos")
 #posicionamiento con grid
-boton1 = Button(ventana, text="Posicionamiento grid").grid(row=0,column=1)
-etiqueta1 = Label(ventana, text="Posicionamiento grid").grid(row=0,column=0)
+Button(ventana, text="Posicionamiento grid").grid(row=0,column=1)
+Label(ventana, text="Posicionamiento grid").grid(row=0,column=0)
 
 #posicionamiento con place
-etiqueta2 = Label(ventana, text="Posicionamiento place").place(x=10,y=40)
-boton2 = Button(ventana, text="Posicionamiento place").place(x=150,y=40)
+Label(ventana, text="Posicionamiento place").place(x=10,y=40)
+Button(ventana, text="Posicionamiento place").place(x=150,y=40)
 ventana.mainloop()
