@@ -25,7 +25,7 @@ saludo = StringVar()
 ventana.title("Entradas en tkinter")
 ventana.geometry("400x300")
 
-#se crean las etiquetas, las cajas de texto y su pocision en la ventana
+#se crean las etiquetas, las cajas de texto y su posicion en la ventana
 Label(ventana,text="Escribe tu nombre:").place(x=10,y=10)
 Entry(ventana,textvariable = nombre).place(x=170,y=10)
 
